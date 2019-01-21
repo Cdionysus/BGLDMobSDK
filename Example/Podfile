@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'BGLDMobSDK-kit_Example' do
+  pod 'BGLDMobSDK-kit', :path => '../'
+
+  target 'BGLDMobSDK-kit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
