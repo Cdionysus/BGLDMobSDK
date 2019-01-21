@@ -1,0 +1,22 @@
+{
+  "name": "BGLDMobSDK-kit",
+  "version": "0.1.0",
+  "summary": "A short description of BGLDMobSDK-kit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Cdionysus/BGLDMobSDK-kit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Cdionysus": "1308566407@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Cdionysus/BGLDMobSDK-kit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "BGLDMobSDK-kit/Classes/**/*"
+}

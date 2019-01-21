@@ -23,6 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		93AC734321F5E3A100D1DBC6 /* BGLDMobSDK.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 93AC734221F5E3A100D1DBC6 /* BGLDMobSDK.podspec */; };
 		BC0E2C7B10E1CC514C8F2036 /* Pods_BGLDMobSDK_kit_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9F3405894817ECF69AC0EC4 /* Pods_BGLDMobSDK_kit_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,8 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		134D57EE9D6A5032B8D3B284 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		1679F7B56687800F150D6D04 /* BGLDMobSDK-kit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = "BGLDMobSDK-kit.podspec"; path = "../BGLDMobSDK-kit.podspec"; sourceTree = "<group>"; };
+		134D57EE9D6A5032B8D3B284 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* BGLDMobSDK-kit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BGLDMobSDK-kit_Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -61,12 +61,13 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D4E5BD07AD94B6168525562 /* Pods_BGLDMobSDK_kit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BGLDMobSDK_kit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		93AC734221F5E3A100D1DBC6 /* BGLDMobSDK.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = BGLDMobSDK.podspec; path = ../BGLDMobSDK.podspec; sourceTree = "<group>"; };
 		A936D98CCD2293A1A48AD731 /* Pods-BGLDMobSDK-kit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BGLDMobSDK-kit_Example.release.xcconfig"; path = "Target Support Files/Pods-BGLDMobSDK-kit_Example/Pods-BGLDMobSDK-kit_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B4E9A775FBE82F524DC8F488 /* Pods-BGLDMobSDK-kit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BGLDMobSDK-kit_Example.debug.xcconfig"; path = "Target Support Files/Pods-BGLDMobSDK-kit_Example/Pods-BGLDMobSDK-kit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B9F3405894817ECF69AC0EC4 /* Pods_BGLDMobSDK_kit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BGLDMobSDK_kit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA672F88F26392B265F7EF9D /* Pods-BGLDMobSDK-kit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BGLDMobSDK-kit_Tests.release.xcconfig"; path = "Target Support Files/Pods-BGLDMobSDK-kit_Tests/Pods-BGLDMobSDK-kit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DA5B45F067ED242E251BF3E5 /* Pods-BGLDMobSDK-kit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BGLDMobSDK-kit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BGLDMobSDK-kit_Tests/Pods-BGLDMobSDK-kit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E1474AB75A2E81546174F44E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		E1474AB75A2E81546174F44E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +104,6 @@
 				DA5B45F067ED242E251BF3E5 /* Pods-BGLDMobSDK-kit_Tests.debug.xcconfig */,
 				CA672F88F26392B265F7EF9D /* Pods-BGLDMobSDK-kit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -190,7 +190,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				1679F7B56687800F150D6D04 /* BGLDMobSDK-kit.podspec */,
+				93AC734221F5E3A100D1DBC6 /* BGLDMobSDK.podspec */,
 				134D57EE9D6A5032B8D3B284 /* README.md */,
 				E1474AB75A2E81546174F44E /* LICENSE */,
 			);
@@ -278,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				93AC734321F5E3A100D1DBC6 /* BGLDMobSDK.podspec in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -300,15 +301,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-BGLDMobSDK-kit_Tests-checkManifestLockResult.txt",
 			);
@@ -322,15 +319,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-BGLDMobSDK-kit_Example-checkManifestLockResult.txt",
 			);
@@ -344,15 +337,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-BGLDMobSDK-kit_Example/Pods-BGLDMobSDK-kit_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/BGLDMobSDK-kit/BGLDMobSDK_kit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BGLDMobSDK_kit.framework",
 			);
